@@ -10,7 +10,7 @@ run apt-get -y install build-essential zlib1g-dev libssl-dev libreadline-dev
 env LC_ALL C.UTF-8
 
 # ruby
-env RUBY_VERSION 2.0.0-p481
+env RUBY_VERSION 1.9.3-p484
 run cd /tmp && \
     git clone https://github.com/sstephenson/ruby-build.git && \
     /tmp/ruby-build/install.sh && \
